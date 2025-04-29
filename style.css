@@ -1,21 +1,18 @@
 /*BEGIN Xbox One Controller Styling*/
-.custom.controller, .custom.controller::after {
+.controller.xbox {
     background: url(base.svg);
     height: 630px;
     width: 750px;
-    background-repeat: no-repeat;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
 
-.custom.controller.disconnected {
-    content: '';
+.xbox.disconnected {
     background: url(disconnected.svg);
 }
 
-.custom.controller.disconnected::after {
+.xbox.disconnected div {
     display: none;
-    position: absolute;
 }
 
 .xbox .triggers {
@@ -25,33 +22,31 @@
     left: 152px;
 }
 
-.custom .trigger {
+.xbox .trigger {
     width: 88px;
     height: 121px;
     background: url(trigger.svg);
-    background-repeat: no-repeat;
     opacity: 0;
 }
 
-.custom .trigger.left {
+.xbox .trigger.left {
     float: left;
     background-position: 0 0;
 }
 
-.custom .trigger.right {
+.xbox .trigger.right {
     float: right;
     transform: rotateY(180deg);
 }
 
-.custom .bumper {
+.xbox .bumper {
     width: 170px;
     height: 61px;
     background: url(bumper.svg);
-    background-repeat: no-repeat;
     opacity: 0;
 }
 
-.custom .bumpers {
+.xbox .bumpers {
     position: absolute;
     width: 536px;
     height: 61px;
@@ -59,21 +54,21 @@
     top: 129px;
 }
 
-.custom .bumper.pressed {
+.xbox .bumper.pressed {
     opacity: 1;
 }
 
-.custom .bumper.left {
+.xbox .bumper.left {
     float: left;
 }
 
-.custom .bumper.right {
+.xbox .bumper.right {
     float: right;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
-.custom .arrows {
+.xbox .arrows {
     position: absolute;
     width: 141px;
     height: 33px;
@@ -81,28 +76,27 @@
     left: 306px;
 }
 
-.custom .back, .custom .start {
+.xbox .back, .xbox .start {
     background: url(start-select.svg);
-    background-repeat: no-repeat;
     width: 33px;
     height: 33px;
     opacity: 0;
 }
 
-.custom .back.pressed, .custom .start.pressed {
+.xbox .back.pressed, .xbox .start.pressed {
     opacity: 1;
 }
 
-.custom .back {
+.xbox .back {
     float: left;
 }
 
-.custom .start {
+.xbox .start {
     background-position: 33px 0px;
     float: right;
 }
 
-.custom .abxy {
+.xbox .abxy {
     position: absolute;
     width: 153px;
     height: 156px;
@@ -110,45 +104,44 @@
     left: 488px;
 }
 
-.custom .button {
+.xbox .button {
     position: absolute;
     background: url(abxy.svg);
-    background-repeat: no-repeat;
     width: 48px;
     height: 48px;
 }
 
-.custom .button.pressed {
+.xbox .button.pressed {
     background-position-y: -48px;
     margin-top: 5px;
     opacity: 1;
 }
 
-.custom .a {
+.xbox .a {
     background-position: 0 0;
     top: 108px;
     left: 55px;
 }
 
-.custom .b {
+.xbox .b {
     background-position: -49px 0;
     top: 58px;
     right: 0px;
 }
 
-.custom .x {
+.xbox .x {
     background-position: -98px 0;
     top: 58px;
     left: 4px;
 }
 
-.custom .y {
+.xbox .y {
     background-position: 48px 0;
     left: 55px;
     top: 7px;
 }
 
-.custom .sticks {
+.xbox .sticks {
     position: absolute;
     width: 371px;
     height: 196px;
@@ -156,30 +149,29 @@
     left: 144px;
 }
 
-.custom .stick {
+.xbox .stick {
     position: absolute;
     background: url(stick.svg);
-    background-repeat: no-repeat;
     background-position: -85px 0;
     height: 83px;
     width: 83px;
 }
 
-.custom .stick.pressed {
+.xbox .stick.pressed {
     background-position: 0 0;
 }
 
-.custom .stick.left {
+.xbox .stick.left {
     top: 0;
     left: 0;
 }
 
-.custom .stick.right {
+.xbox .stick.right {
     top: 113px;
     left: 288px;
 }
 
-.custom .dpad {
+.xbox .dpad {
     position: absolute;
     width: 110px;
     height: 111px;
@@ -187,18 +179,17 @@
     left: 223px;
 }
 
-.custom .face {
+.xbox .face {
     background: url(dpad.svg);
-    background-repeat: no-repeat;
     position: absolute;
     opacity: 0;
 }
 
-.custom .face.pressed {
+.xbox .face.pressed {
     opacity: 1;
 }
 
-.custom .face.up {
+.xbox .face.up {
     background-position: 34px 0;
     left: 38px;
     top: 0px;
@@ -206,14 +197,14 @@
     height: 56px;
 }
 
-.custom .face.down {
+.xbox .face.down {
     left: 38px;
     bottom: 0;
     width: 34px;
     height: 56px;
 }
 
-.custom .face.left {
+.xbox .face.left {
     background-position: 0 -93px;
     width: 55px;
     height: 35px;
@@ -221,7 +212,7 @@
     left: 0;
 }
 
-.custom .face.right {
+.xbox .face.right {
     background-position: 0 -57px;
     width: 55px;
     height: 35px;
@@ -229,11 +220,11 @@
     right: 0;
 }
 
-.custom.half {
+.xbox.half {
     margin-top: -315px;
 }
 
-.custom {
+.xbox {
     background: no-repeat center;
 }
 
