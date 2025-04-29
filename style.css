@@ -12,10 +12,6 @@
     background: url(disconnected.svg);
 }
 
-.controller.disconnected {
-  opacity: 0 !important;
-}
-
 .xbox .trigger {
     width: 88px;
     height: 121px;
