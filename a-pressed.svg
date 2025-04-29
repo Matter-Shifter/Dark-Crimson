@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,9.23706e-14,-49.38)">
+        <g>
+            <g>
+                <g id="A-2">
+                    <path d="M23.69,49.38C36.677,49.385 47.36,60.073 47.36,73.06C47.36,86.05 36.67,96.74 23.68,96.74C10.69,96.74 0,86.05 0,73.06L-0,73.06C-0,60.07 10.69,49.38 23.68,49.38C23.683,49.38 23.687,49.38 23.69,49.38Z" style="fill:rgb(255,99,99);fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g transform="matrix(3.01731,0,0,3.01731,-142.008,-4.94236)">
+                <g transform="matrix(12,0,0,12,59.6283,30.0516)">
+                </g>
+                <text x="50.196px" y="30.052px" style="font-family:'Montserrat-ExtraBold', 'Montserrat';font-weight:800;font-size:12px;fill:rgb(255,205,205);">A</text>
+                <path d="M56.441,28.751L53.336,28.751L52.676,30.383L49.52,30.383L53.52,21.32L56.292,21.32L60.306,30.383L57.101,30.383L56.441,28.751ZM56.664,28.42L57.324,30.052L59.796,30.052L56.076,21.652L53.736,21.652L50.028,30.052L52.452,30.052L53.112,28.42L56.664,28.42ZM55.968,26.668L53.808,26.668L54.888,23.98L55.968,26.668ZM55.478,26.336L54.888,24.869C54.888,24.869 54.299,26.336 54.299,26.336L55.478,26.336Z" style="fill:white;"/>
+            </g>
+        </g>
+    </g>
+</svg>

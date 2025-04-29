@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g transform="matrix(1,0,0,1,-34.2,-0.07)">
+        <g id="Menu_Pressed">
+            <path d="M66.91,16.6C66.91,25.432 59.642,32.7 50.81,32.7C41.978,32.7 34.71,25.432 34.71,16.6C34.71,7.768 41.978,0.5 50.81,0.5C59.64,0.505 66.905,7.77 66.91,16.6Z" style="fill:rgb(255,99,99);fill-rule:nonzero;stroke:rgb(255,203,203);stroke-width:1px;"/>
+            <g>
+                <rect x="43.61" y="11.98" width="14.36" height="1.55" style="fill:rgb(255,203,203);"/>
+                <rect x="43.61" y="15.9" width="14.36" height="1.55" style="fill:rgb(255,203,203);"/>
+                <rect x="43.61" y="19.71" width="14.36" height="1.53" style="fill:rgb(255,203,203);"/>
+            </g>
+        </g>
+        <g id="Switcher_PRessed">
+            <path d="M32.71,16.59C32.71,16.593 32.71,16.607 32.71,16.61C32.71,25.448 25.438,32.72 16.6,32.72C7.762,32.72 0.49,25.448 0.49,16.61C0.49,7.772 7.762,0.5 16.6,0.5C16.607,0.5 16.613,0.5 16.62,0.5C25.447,0.5 32.71,7.763 32.71,16.59Z" style="fill:rgb(255,99,99);fill-rule:nonzero;stroke:rgb(255,203,203);stroke-width:1px;"/>
+        </g>
+    </g>
+</svg>
