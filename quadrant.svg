@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <g>
+            <rect x="10.2" y="29.26" width="8.54" height="8.53" style="fill:rgb(52,0,0);"/>
+            <g transform="matrix(1,0,0,1,1.37,1.62)">
+                <path d="M16.88,28.14L16.88,35.66L9.34,35.66L9.34,28.14L16.88,28.14M17.88,27.14L8.34,27.14L8.34,36.66L17.87,36.66L17.87,27.14L17.88,27.14Z" style="fill:rgb(126,0,0);fill-rule:nonzero;"/>
+            </g>
+        </g>
+        <g>
+            <use xlink:href="#_Image1" x="1" y="1" width="27px" height="27px"/>
+            <g>
+                <rect x="10.2" y="10.46" width="8.54" height="8.54" style="fill:rgb(255,50,50);"/>
+                <g transform="matrix(1,0,0,1,1.37,1.62)">
+                    <path d="M16.88,9.34L16.88,16.87L9.34,16.87L9.34,9.34L16.88,9.34M17.88,8.34L8.34,8.34L8.34,17.87L17.87,17.87L17.87,8.34L17.88,8.34Z" style="fill:rgb(255,189,189);fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+        <g>
+            <rect x="28.99" y="10.46" width="8.54" height="8.54" style="fill:rgb(52,0,0);"/>
+            <g transform="matrix(1,0,0,1,1.37,1.62)">
+                <path d="M35.66,9.34L35.66,16.87L28.13,16.87L28.13,9.34L35.66,9.34M36.66,8.34L27.13,8.34L27.13,17.87L36.66,17.87L36.66,8.34Z" style="fill:rgb(126,0,0);fill-rule:nonzero;"/>
+            </g>
+        </g>
+        <g>
+            <rect x="28.99" y="29.26" width="8.54" height="8.53" style="fill:rgb(52,0,0);"/>
+            <g transform="matrix(1,0,0,1,1.37,1.62)">
+                <path d="M35.66,28.14L35.66,35.66L28.13,35.66L28.13,28.14L35.66,28.14M36.66,27.14L27.13,27.14L27.13,36.66L36.66,36.66L36.66,27.14Z" style="fill:rgb(126,0,0);fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="27px" height="27px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACE0lEQVRIicWWbW/aQBCEH6cGA0VUSdT//wujKgkYMCbuB8/gvbOtUgm1J60s38vOztzu2gV3jg6KubUCunt8TDrIHOd7inRrfnQ+gBGYgIqwntvEkZEBdDlgOQNUAE8TlgPa+deE0WUMi3AqB/mmYKJ5zcOO28yuYe3GsJxhVAJLWSVbyMzQjC6ys6yRtZbUDBMZA6MlsAI2wHc9V5o3QzNqgBNQAwc9o8RXO49gOasNsAu2BdZaM1gDHIE98KFALW8iZQTLJazEaAe8yn5orpLTq2Q7AO+SGM1b2jb47uaYVYHZK/BTz53YGewoRkv58N0dJa3vt5exS2vKYAv6O9qKkQGfFYTBagWGJN0Dnzrvuy3odSxyZgZcKNp1kPMZeBFYKYlWOnsWQ99pzNqBWQCK7GKiVHKykW0DGJJrrX0xW58yv6PUjyxjcdtigTvYuJ6DJGMOLLagazB3CEi7hS1J9TmwLjxjC2oYsqtmuCPLWMuODN2jnQBN6swTsQW5YA/0l++sO5Fm4y+tH7S/0fkv0q8AZQFdl/a6VptP9Kn8zlBHZ6br7E379jrngr6xy3tjBDsr6g+GztAEhlMd5E3rteYTsChjlLANTtzrLor6T73RcuZgk3cWE8Pd2ww+ub/rx0QZMfNwqjfh/aLo//Z75lK4jX/6pU4q/cH/IF0EGoFlgF5/2N/V//1vnBuP+CP+DZ0cHmj+9rXBAAAAAElFTkSuQmCC"/>
+    </defs>
+</svg>
