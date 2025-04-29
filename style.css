@@ -1,6 +1,6 @@
 /*BEGIN Xbox One Controller Styling*/
 
-.controller.xbox {
+.custom.controller {
     background: url(base.svg);
     height: 630px;
     width: 750px;
@@ -8,39 +8,39 @@
         margin-top: -285px;*/
 }
 
-.xbox.disconnected {
+.custom.controller.disconnected {
     background: url(disconnected.svg);
 }
 
-.xbox .trigger {
+.custom .trigger {
     width: 88px;
     height: 121px;
     background: url(trigger.svg);
     opacity: 0;
 }
 
-.xbox .bumper {
+.custom .bumper {
     width: 170px;
     height: 61px;
     background: url(bumper.svg);
     opacity: 0;
 }
 
-.xbox .back, .xbox .start {
+.custom .back, .custom .start {
     background: url(start-select.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
 }
 
-.xbox .button {
+.custom .button {
     position: absolute;
     background: url(abxy.svg);
     width: 48px;
     height: 48px;
 }
 
-.xbox .stick {
+.custom .stick {
     position: absolute;
     background: url(stick.svg);
     background-position: -85px 0;
@@ -48,7 +48,7 @@
     width: 83px;
 }
 
-.xbox .face {
+.custom .face {
     background: url(dpad.svg);
     position: absolute;
     opacity: 0;
