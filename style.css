@@ -3,8 +3,8 @@
     background: url(base.svg);
     height: 630px;
     width: 750px;
-    margin-left: -375px;
-    margin-top: -285px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
 }
 
 .xbox.disconnected {
@@ -106,8 +106,15 @@
     left: 306px;
 }
 
-.xbox .back, .xbox .start {
-    background: url(start-select.svg);
+.xbox .back{
+    background: url(select-pressed.svg);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+
+.xbox .start {
+    background: url(start-pressed.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -136,7 +143,6 @@
 
 .xbox .button {
     position: absolute;
-    background: url(abxy.svg);
     width: 48px;
     height: 48px;
 }
@@ -148,28 +154,47 @@
 }
 
 .xbox .a {
+    background: url(a.svg);
     background-position: 0 0;
     top: 108px;
     left: 55px;
 }
+.xbox .a.pressed {
+    background: url(a-pressed.svg);
+}
 
 .xbox .b {
+    background: url(b.svg);
     background-position: -49px 0;
     top: 58px;
     right: 0px;
 }
+.xbox .b.pressed {
+    background: url(b-pressed.svg);
+}
+
 
 .xbox .x {
+    background: url(x.svg);
     background-position: -98px 0;
     top: 58px;
     left: 4px;
 }
+.xbox .x.pressed {
+    background: url(x-pressed.svg);
+}
+
 
 .xbox .y {
+    background: url(y.svg);
     background-position: 48px 0;
     left: 55px;
     top: 7px;
 }
+.xbox .y.pressed {
+    background: url(y-pressed.svg);
+}
+
 
 .xbox .sticks {
     position: absolute;
@@ -181,7 +206,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(stick.svg);
+    background: url(stick-idle.svg);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -189,6 +214,7 @@
 
 .xbox .stick.pressed {
     background-position: 0 0;
+    background: url(stick-pressed.svg);
 }
 
 .xbox .stick.left {
@@ -210,8 +236,9 @@
 }
 
 .xbox .face {
-    background: url(dpad.svg);
     position: absolute;
+    width: 34px;
+    height: 56px;
     opacity: 0;
 }
 
@@ -220,7 +247,7 @@
 }
 
 .xbox .face.up {
-    background-position: 34px 0;
+    background: url(up.svg) no-repeat;
     left: 38px;
     top: 0px;
     width: 34px;
@@ -228,6 +255,7 @@
 }
 
 .xbox .face.down {
+    background: url(down.svg);
     left: 38px;
     bottom: 0;
     width: 34px;
@@ -235,7 +263,7 @@
 }
 
 .xbox .face.left {
-    background-position: 0 -93px;
+    background: url(left.svg);
     width: 55px;
     height: 35px;
     top: 38px;
@@ -243,7 +271,7 @@
 }
 
 .xbox .face.right {
-    background-position: 0 -57px;
+    background: url(right.svg);
     width: 55px;
     height: 35px;
     top: 38px;
@@ -257,5 +285,3 @@
 .xbox {
     background: no-repeat center;
 }
-
-/*END Xbox One Controller Styling*/
